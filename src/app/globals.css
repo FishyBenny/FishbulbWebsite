@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+}
+
+.fishbulb-recaptcha-shell {
+  min-height: 78px;
+}
+
+.fishbulb-recaptcha-mock {
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  color: #000;
+  display: flex;
+  font-family: Arial, sans-serif;
+  height: 78px;
+  justify-content: space-between;
+  padding: 14px 12px;
+  width: 304px;
+}
+
+.fishbulb-recaptcha-checkline {
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  gap: 14px;
+}
+
+.fishbulb-recaptcha-checkbox {
+  background: #fff;
+  border: 2px solid #555;
+  box-sizing: border-box;
+  display: block;
+  height: 28px;
+  width: 28px;
+}
+
+.fishbulb-recaptcha-brand {
+  align-items: center;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 1.1;
+  width: 58px;
+}
+
+.fishbulb-recaptcha-brand img {
+  height: 32px;
+  margin-bottom: 4px;
+  width: 32px;
+}
