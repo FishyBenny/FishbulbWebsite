@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+/* Mirrored Webflow service pages use a sticky transparent navbar. */
+.navbar.w-nav {
+  background-color: #fff !important;
+}
+
 .fishbulb-recaptcha-shell {
   min-height: 78px;
 }
@@ -53,4 +58,13 @@ body {
   height: 32px;
   margin-bottom: 4px;
   width: 32px;
+}
+
+/* Fix Webflow nav dropdown grid overlap at tablet widths */
+@media (max-width: 991px) {
+  .rl_navbar5_dropdown-content-left {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
 }
